@@ -85,7 +85,7 @@ function calculatePercentage(value) {
   if (!isNaN(numericValue)) {
     return (numericValue / 100).toString();
   } else {
-    return '0t';
+    return '0';
   }
 }
 
