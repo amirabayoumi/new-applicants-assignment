@@ -1,17 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #000;
-    color: #fff;
-}
-
-/* Add your css  */
+/* text Calculator styling*/
+h1 {
+    font-size: 50px;
+    color: #422e2e;
+    margin-left: 25%;
+    text-shadow: 2px 2px 5px rgb(80, 79, 79);
+    margin-bottom: 0;
+  
+  }
+  /* By Amira Bayoumi text styling*/
+  h2 {
+    font-size: 14px;
+    color: #422e2e;
+    margin-left: 37%;
+    text-shadow: 2px 2px 5px rgb(133, 132, 132);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /*background*/
+  body {
+    background-image: url(assets/desk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /*main box of Calculator position and size, color*/
+  .calculator {
+    width: 285px;
+    height: 395px;
+    background-color: #292828;
+    padding: 3%;
+    border-radius: 5%;
+    margin-left: 20%;
+  }
+  
+  /*display styling */
+  .calculator-input {
+    width: 100%;
+    padding: 1%;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c9bfbf;
+  }
+  
+  /* buttons styling ( positions and size, shape)*/
+  .calculator-keys {
+    display: grid;
+    grid-template-columns:repeat(4, 65px);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  button {
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    color: #ffffff;
+    cursor:pointer;
+    border-radius: 15px;
+  }
+  button#equal {
+    grid-column: span 4;
+  }
+  button#zerozero {
+    grid-column: span 2;
+  }
+  
+  
+  /* style( color) of all buttons */
+  .operation-key, .percent-key {
+    background-color: #bb5240;
+  }
+  .operation-key:hover, .percent-key:hover  {
+    background-color: #d8dab2db;
+  }
+  .num-key {
+    background-color: #313131;
+  }
+  .num-key:hover {
+    background-color: #8f8d8da8;
+  }
+  
+  /* footer text styling */
+  p{
+    font-size: 123%;
+    color: #363636;
+    margin-left: 0.5cm;
+    font-family:monospace;
+    text-shadow: 2px 2px 5px rgb(192, 163, 163);
+    margin-top: 0.8cm;
+  }
