@@ -6,49 +6,65 @@
         <link rel="stylesheet" href="./styles/style.css" />
         <title>Calculator</title>
         <h1>Calculator</h1>
-        <h2>By <span title="New applicant with HackYourFuture Program">Amira Bayoumi</span></h2>
+        <h2>
+            By
+            <span title="New applicant with HackYourFuture Program"
+                >Amira Bayoumi</span
+            >
+        </h2>
     </head>
     <body>
         <div class="container">
             <div class="calculator">
                 <!--output display-->
                 <div class="calculator-input" id="display">
-                    <input type="text" placeholder="0" class="calculator-input" id="input" disabled />
+                    <input
+                        type="text"
+                        placeholder="0"
+                        class="calculator-input"
+                        id="input"
+                        disabled
+                    />
                 </div>
                 <!--number keys + operation keys-->
                 <div class="calculator-keys">
-                  <!--first row-->
-                  <button value="Reset"  class="operation-key" >Reset</button>
-                  <button value="DEL"  class="operation-key" >DEL</button>
-                  <button value="%" class="percent-key">%</button>
-                  <button value="/" class="operation-key" >÷</button>
-                  <!--second row-->          
-                  <button value="7" class="num-key" >7</button>
-                  <button value="8" class="num-key" >8</button>
-                  <button value="9" class="num-key" >9</button>
-                  <button value="*" class="operation-key">x</button>
-                  <!--3rd-->
-                  <button value="4" class="num-key" >4</button>
-                  <button value="5" class="num-key" >5</button>
-                  <button value="6" class="num-key" >6</button>
-                  <button value="-" class="operation-key">-</button>
-                  <!--4th-->
-                  <button value="1" class="num-key" >1</button>
-                  <button value="2" class="num-key" >2</button>
-                  <button value="3" class="num-key" >3</button>
-                  <button value="+" class="operation-key">+</button>
-                  <!--5th row & zerozero span for 2 cells-->
-                  <button value="." class="num-key">.</button>
-                  <button value="0" class="num-key" id="zero">0</button>
-                  <button value="00" class="num-key" id="zerozero">00</button>
-                  <!--6th row for equal button only span for 4-->
-                  <button value="="  class="operation-key" id="equal">Calculate</button>
+                    <!--first row-->
+                    <button value="Reset" class="operation-key">Reset</button>
+                    <button value="DEL" class="operation-key">DEL</button>
+                    <button value="%" class="percent-key">%</button>
+                    <button value="/" class="operation-key">÷</button>
+                    <!--second row-->
+                    <button value="7" class="num-key">7</button>
+                    <button value="8" class="num-key">8</button>
+                    <button value="9" class="num-key">9</button>
+                    <button value="*" class="operation-key">x</button>
+                    <!--3rd-->
+                    <button value="4" class="num-key">4</button>
+                    <button value="5" class="num-key">5</button>
+                    <button value="6" class="num-key">6</button>
+                    <button value="-" class="operation-key">-</button>
+                    <!--4th-->
+                    <button value="1" class="num-key">1</button>
+                    <button value="2" class="num-key">2</button>
+                    <button value="3" class="num-key">3</button>
+                    <button value="+" class="operation-key">+</button>
+                    <!--5th row & zerozero span for 2 cells-->
+                    <button value="." class="num-key">.</button>
+                    <button value="0" class="num-key" id="zero">0</button>
+                    <button value="00" class="num-key" id="zerozero">00</button>
+                    <!--6th row for equal button only span for 4-->
+                    <button value="=" class="operation-key" id="equal">
+                        Calculate
+                    </button>
                 </div>
             </div>
         </div>
         <script src="./src/main.js"></script>
     </body>
     <footer>
-        <p>👀 Remember, a negative multiplied by a negative is only positive in maths, not in the real world, <strong> BE POSITIVE!</strong></p>
+        <p>
+            👀 Remember, a negative multiplied by a negative is only positive in
+            maths, not in the real world, <strong> BE POSITIVE!</strong>
+        </p>
     </footer>
 </html>
