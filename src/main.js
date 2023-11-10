@@ -1,5 +1,5 @@
 // Add your JavaScript here
-//first give difintaion to elements in html (declare the variable )
+//first give difination to elements in html (declare the variable )
 
 const display = document.querySelector('#input');
 const buttons = document.querySelectorAll(
