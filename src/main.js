@@ -53,6 +53,7 @@ buttons.forEach(function(button) {
     } else {
       currentInput += buttonValue;
     }
+    // what is on display either curnt/perv/or zero
     display.value = currentInput || previousInput || '0';
   });
 });
